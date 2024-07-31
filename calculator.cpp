@@ -1,19 +1,16 @@
 #include <iostream>
 using namespace std;
-int main(){
-     int a,b,x,y,z,w,r;
-    cout << "enter the number:";
-    cin >> a >> b;
-    x = a|b;
-    cout << "\nans is :" << x;
-    y = a^b;
-    cout << "\nans is :" << y;
-    z = a&b;
-    cout << "\nans is :" << z;
-    w = a << 1;
-    cout << "\nans is :" << w;
-    r = a >> 1;
-    cout << "\nans is :" << r;
+
+int main() {   
+    float num1,num2;
+    cout << "Enter num1: ";
+    cin >> num1;
+    cout << "Enter num2: ";
+    cin >> num2;
+    cout << "The sum is: " << num1+num2 << "\n";;
+    cout << "The difference is: " << num1-num2 << "\n";;
+    cout << "The division is: " << num1/num2 << "\n";;
+    cout << "The product is: " << num1*num2 << "\n";;
 
     return 0;
 }
