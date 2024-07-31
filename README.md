@@ -32,7 +32,7 @@ int main(){<br>
     r = a >> 1;<br>
     cout << "\nans is :" << r;<br>
 
-    return 0;<br>
+    return 0; <br>
 } 
 <br>
 C) <br>
