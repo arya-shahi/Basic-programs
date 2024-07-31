@@ -8,7 +8,6 @@ Downloading and installation of VS Code (Hello World and Calculator)
 1. In this experiment, we installed VS Code and MinGW (from SourceForge).
 2. The program includes:
    - Printing "Hello World"
-   - Performing bitwise operations
    - Calculating sum, subtraction, multiplication, and division of two numbers (user input)
    - Taking the average of 5 inputs and grading them
 
