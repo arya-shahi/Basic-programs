@@ -26,32 +26,23 @@ int main() {
 }
 ```
 
-### B) Bitwise Operations Calculator
+### B) Calculator
 
 ```cpp
 #include <iostream>
 using namespace std;
 
-int main() {
-    int a, b, x, y, z, w, r;
+int main() {   
+    float num1,num2;
+    cout << "Enter num1: ";
+    cin >> num1;
+    cout << "Enter num2: ";
+    cin >> num2;
+    cout << "The sum is: " << num1+num2 << "\n";;
+    cout << "The difference is: " << num1-num2 << "\n";;
+    cout << "The division is: " << num1/num2 << "\n";;
+    cout << "The product is: " << num1*num2 << "\n";;
 
-    cout << "Enter the number: ";
-    cin >> a >> b;
-
-    x = a | b;
-    cout << "\nBitwise OR result: " << x;
-
-    y = a ^ b;
-    cout << "\nBitwise XOR result: " << y;
-
-    z = a & b;
-    cout << "\nBitwise AND result: " << z;
-
-    w = a << 1;
-    cout << "\nLeft shift result: " << w;
-
-    r = a >> 1;
-    cout << "\nRight shift result: " << r;
 
     return 0;
 }
