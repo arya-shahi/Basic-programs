@@ -7,32 +7,32 @@ Theory:- <br>
 CODE:- <br>
 A) <br>
 #include <iostream>
- using namespace std;
- int main(){
+using namespace std;
+int main(){
 
     cout<< "HELLO WORLD";
     return 0;
- } <br>
+} <br>
 
  B) <br>
-#include <iostream>
-using namespace std;
-int main(){
-     int a,b,x,y,z,w,r;
-    cout << "enter the number:";
-    cin >> a >> b;
-    x = a|b;
-    cout << "\nans is :" << x;
-    y = a^b;
-    cout << "\nans is :" << y;
-    z = a&b;
-    cout << "\nans is :" << z;
-    w = a << 1;
-    cout << "\nans is :" << w;
-    r = a >> 1;
-    cout << "\nans is :" << r;
+#include <iostream><br>
+using namespace std;<br>
+int main(){<br>
+     int a,b,x,y,z,w,r;<br>
+    cout << "enter the number:";<br>
+    cin >> a >> b;<br>
+    x = a|b;<br>
+    cout << "\nans is :" << x;<br>
+    y = a^b;<br>
+    cout << "\nans is :" << y;<br>
+    z = a&b;<br>
+    cout << "\nans is :" << z;<br>
+    w = a << 1;<br>
+    cout << "\nans is :" << w;<br>
+    r = a >> 1;<br>
+    cout << "\nans is :" << r;<br>
 
-    return 0;
+    return 0;<br>
 } 
 <br>
 C) <br>
