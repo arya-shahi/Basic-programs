@@ -1,59 +1,89 @@
-AIM :- downloading and installation of vs code ( hello world and calculator) <br>
 
-Theory:- <br>
+# AIM
 
-1). In this we installed vs code and ming w (from source forge) <br>
-2). in this program we have printed hello world and find the sum , subtarction , multiplication and division of two numbers (user input), taking average of 5 inputs and grading them <br>
-CODE:- <br>
-A) <br>
+Downloading and installation of VS Code (Hello World and Calculator)
+
+## Theory
+
+1. In this experiment, we installed VS Code and MinGW (from SourceForge).
+2. The program includes:
+   - Printing "Hello World"
+   - Performing bitwise operations
+   - Calculating sum, subtraction, multiplication, and division of two numbers (user input)
+   - Taking the average of 5 inputs and grading them
+
+## CODE
+
+### A) Hello World
+
+```cpp
 #include <iostream>
 using namespace std;
-int main(){
 
-    cout<< "HELLO WORLD";
-    return 0;
-} <br>
-
- B) <br>
-#include <iostream><br>
-using namespace std;<br>
-int main(){<br>
-     int a,b,x,y,z,w,r;<br>
-    cout << "enter the number:";<br>
-    cin >> a >> b;<br>
-    x = a|b;<br>
-    cout << "\nans is :" << x;<br>
-    y = a^b;<br>
-    cout << "\nans is :" << y;<br>
-    z = a&b;<br>
-    cout << "\nans is :" << z;<br>
-    w = a << 1;<br>
-    cout << "\nans is :" << w;<br>
-    r = a >> 1;<br>
-    cout << "\nans is :" << r;<br>
-
-    return 0; <br>
-} 
-<br>
-C) <br>
-#include <iostream>
-using namespace std;
 int main() {
-    int m1,m2,m3,m4,m5,avg;
-    cout << "enter the num :";
-    cin >> m1 >> m2 >> m3 >> m4 >> m5;
-    avg = (m1+m2+m3+m4+m5)/5;
-    if (avg > 80)
-    cout << "it is A+ grade";
-    else if (avg > 60 and avg<80)
-    cout <<"it is B++ grade";
-    else if (avg < 60 and avg > 0 )
-    cout <<"it is C grade";
-    
+    cout << "HELLO WORLD";
+    return 0;
+}
+```
+
+### B) Bitwise Operations Calculator
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, x, y, z, w, r;
+
+    cout << "Enter the number: ";
+    cin >> a >> b;
+
+    x = a | b;
+    cout << "\nBitwise OR result: " << x;
+
+    y = a ^ b;
+    cout << "\nBitwise XOR result: " << y;
+
+    z = a & b;
+    cout << "\nBitwise AND result: " << z;
+
+    w = a << 1;
+    cout << "\nLeft shift result: " << w;
+
+    r = a >> 1;
+    cout << "\nRight shift result: " << r;
 
     return 0;
 }
+```
 
-Conclusion:
-<br>
-In this experiment we learned about basic programs in c++ <br>
+### C) Average and Grading
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int m1, m2, m3, m4, m5, avg;
+    
+    cout << "Enter 5 numbers: ";
+    cin >> m1 >> m2 >> m3 >> m4 >> m5;
+
+    avg = (m1 + m2 + m3 + m4 + m5) / 5;
+
+    if (avg > 80)
+        cout << "Grade: A+";
+    else if (avg > 60 && avg <= 80)
+        cout << "Grade: B++";
+    else if (avg <= 60 && avg >= 0)
+        cout << "Grade: C";
+    
+    return 0;
+}
+```
+
+## Conclusion
+
+In this experiment, we learned about basic programs in C++.
+
+---
