@@ -1,7 +1,7 @@
 
 # AIM
 
-Downloading and installation of VS Code (Hello World and Calculator)
+Downloading and installation of VS Code and performing basic programs (Hello World, Calculator and average)
 
 ## Theory
 
