@@ -15,7 +15,7 @@ A) <br>
  } <br>
 
  B) <br>
- #include <iostream>
+#include <iostream>
 using namespace std;
 int main(){
      int a,b,x,y,z,w,r;
@@ -33,7 +33,8 @@ int main(){
     cout << "\nans is :" << r;
 
     return 0;
-} <br>
+} 
+<br>
 C) <br>
 #include <iostream>
 using namespace std;
@@ -51,7 +52,8 @@ int main() {
     
 
     return 0;
-} <br>
+}
+
 Conclusion:
 <br>
 In this experiment we learned about basic programs in c++ <br>
