@@ -14,3 +14,11 @@ int main() {
 
     return 0;
 }
+/* Output:
+Enter num1: 5
+Enter num2: 10
+The sum is: 15
+The difference is: -5
+The division is: 0.5
+The product is: 50
+*/
