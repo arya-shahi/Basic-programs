@@ -4,3 +4,7 @@
  cout<< "HELLO WORLD";
  return 0;
  }
+
+/* Output:
+Hello World
+*/
