@@ -47,30 +47,8 @@ int main() {
 }
 ```
 
-### C) Average and Grading
 
-```cpp
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m1, m2, m3, m4, m5, avg;
-    
-    cout << "Enter 5 numbers: ";
-    cin >> m1 >> m2 >> m3 >> m4 >> m5;
-
-    avg = (m1 + m2 + m3 + m4 + m5) / 5;
-
-    if (avg > 80)
-        cout << "Grade: A+";
-    else if (avg > 60 && avg <= 80)
-        cout << "Grade: B++";
-    else if (avg <= 60 && avg >= 0)
-        cout << "Grade: C";
-    
-    return 0;
-}
-```
 
 ## Conclusion
 
